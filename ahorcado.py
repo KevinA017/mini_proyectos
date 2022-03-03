@@ -18,7 +18,7 @@ def new_game():
     else:
         exit()
 def read():
-    with open("./archivos/data.txt", "r") as palabras:
+    with open("./data.txt", "r") as palabras:
         list_words = [line.replace("\n", "") for line in palabras]
     return list_words
 
